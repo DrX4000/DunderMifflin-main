@@ -61,7 +61,7 @@
         require_once(__DIR__."/../../view/php/logInOut.php");
     }
     else {
-        require_once(__DIR__."/../../view/php/index.php");
+        require_once(__DIR__."/../../view/php/loginExample.php");
     }
  
  
