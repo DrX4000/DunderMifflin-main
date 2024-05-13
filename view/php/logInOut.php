@@ -11,7 +11,7 @@
    
     // do all necessary includes first
     // __DIR__ allows you to use relative paths explicitly
-    require_once(__DIR__."./model/php/UserModel.php");
+    require_once(__DIR__."/../../model/php/UserModel.php");
  
  
  
@@ -58,10 +58,10 @@
     // Otherwise, the view will simply display the login form
     // the form if not logged in, the welcome page if logged in
     if (isset($_SESSION['prenom'])) {
-        require_once(__DIR__."/view/php/logInOut.php");
+        require_once(__DIR__."/../../view/php/logInOut.php");
     }
     else {
-        require_once(__DIR__."/view/php/index.php");
+        require_once(__DIR__."/../../view/php/index.php");
     }
  
  
